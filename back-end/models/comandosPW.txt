@@ -1,0 +1,90 @@
+    
+    portaria
+    {
+        "nome":"alanzin rei delas" ,
+        "RG":"1245472-1877",
+        "vg_oculpadas": ["15","16","12"]
+    }
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--
+
+                ingresso
+
+            1
+    {
+
+        "nome": "clebsnaldo girovanio",
+        "RG": 12547896368,
+        "tipo_ingresso": "E",
+        "vaga": "true",
+        "n_vaga":27,
+        "portaria_ingresso":"5ebfd6b6a754df2f28023897"
+        -=-=-=-=-
+
+        "_id": "5ec038207ae6e228b8b0f5b6",
+
+    }
+
+                    2
+    {
+
+        "nome": "papirosnelson alexandrino",
+        "RG": 1458798523,
+        "tipo_ingresso": "S",
+        "vaga": "true",
+        "n_vaga":2,
+        "portaria_ingresso":"5ebfd6b6a754df2f28023897"
+        -=-=-
+
+        "_id": "5ec038b37ae6e228b8b0f5b7",
+
+
+    }
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+                BAR 
+
+{
+    "produto": "desonfetante interno",
+    "quantidade": 1,
+    "qnt_fichas": 500,
+    "cliente": "5ec038207ae6e228b8b0f5b6" > clebsnaldo
+}
+
+{
+    "produto": "motumbo careca",
+    "quantidade": 2,
+    "qnt_fichas": 300,
+    "cliente": "5ec038b37ae6e228b8b0f5b7" > papirosnelson
+}
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+            produto
+{
+
+    "nome" : "desinfetante interno"
+    "vlr": 15,
+    tipo : 'B',
+}
+
+{
+
+    "nome" : "motumbo careca",
+    "vlr": 21,
+    "tipo" : "B"
+
+}
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+            caixa
+
+{
+    "qnt_fichas": 30,
+    "vlr_recebido": 50,
+    "forma_pag":"DI",
+    "troco":20,
+    "cliente":"5ec038207ae6e228b8b0f5b6"
+}
