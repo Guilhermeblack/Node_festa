@@ -1,4 +1,4 @@
-const Ingressos = require('../models/Ingressos')
+const Ingressos = require('../models/Ingresso')
 
 const controller = {} // Objeto vazio
 

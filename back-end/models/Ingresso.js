@@ -26,7 +26,7 @@ const esquema = mongoose.Schema({
       type: Boolean,
       default: false,
    },
-   n_vaga:{
+   n_vaga:{ //caso precise de vaga
       type: Number,
       require: () => this.vaga,
       maxLength:2, // ate 99 vagas 
@@ -38,11 +38,7 @@ const esquema = mongoose.Schema({
       ref: 'Portaria', // Nome do model referenciado
       required: true
    },
-   // fornecedor: {
-   //    type: mongoose.ObjectId,
-   //    ref: 'Fornecedor', // Nome do model referenciado
-   //    required: true
-   // }
+
 })
 
-module.exports = mongoose.model('Ingressos', esquema, 'ingressos')
+module.exports = mongoose.model('Ingresso', esquema, 'ingressos')

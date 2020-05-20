@@ -4,7 +4,10 @@ const esquema = mongoose.Schema({
    nome: {
       type: String,
       required: true,
-      min:1 // Atributo obrigatório
+
+      // falha minha aqui
+      //mais ta rodando
+
    },
    vlr: {
       type: Number,

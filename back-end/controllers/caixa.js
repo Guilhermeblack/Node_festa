@@ -26,7 +26,7 @@ controller.listar = async (req, res) => {
       try {
          // find() sem parâmetros: retorna todos
          const lista = await Caixa.find().populate(
-            { path:'cliente', select: 'nome RG'}
+            { path:'ingresso_vinc', select: 'nome RG'}
          )
          res.send(lista) // O status HTTP 200 (OK) é implícito
       }

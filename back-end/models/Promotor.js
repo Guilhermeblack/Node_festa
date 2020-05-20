@@ -6,23 +6,19 @@ const esquema = mongoose.Schema({
       type: String,
       required:true
    },
-   setores: {
-      type: String,
-   },
+
    artistas: {
       type: String,
       required: true
    },
    telefone: {
-      type: String,
+      type: Number,
       required: true
    },
    Estrutura: {
       type: String,
    },
-   horarios: {
-      type: String,
-   }
+
 })
 
 module.exports = mongoose.model('Promotor', esquema, 'promotor')

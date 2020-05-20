@@ -1,0 +1,112 @@
+    
+
+                Promotor
+   {
+        "nome": "Dilsin shows",
+        "artistas": "dani da cuica",
+        "telefone": 3658-8745,
+        "Estrutura": "palco aberto"
+    }
+        "_id": "5ec522b0aba0691054115a72",
+
+   -=-=-=-=-=-=-=-=-=-
+   
+            produto
+{
+
+    "nome" : "desinfetante interno",
+    "vlr": 15,
+    "tipo" : 'B'
+}
+
+{
+
+    "nome" : "botumo da ribancera",
+    "vlr": 21,
+    "tipo" : "B"
+
+}
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+            portaria
+
+    {
+        "nome":"alanzin rei delas" ,
+        "RG":12454721877,
+        "ingresso_validado" : true,
+        "promotor": "5ec522b0aba0691054115a72" 
+    }
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--
+
+                ingresso
+
+            1
+    {
+
+        "nome": "clebsnaldo girovanio",
+        "RG": 12547896368,
+        "tipo_ingresso": "E",
+        "vaga": "true",
+        "n_vaga":27,
+        "portaria_ingresso":"5ec525f79186cd1cbca61486"
+        -=-=-=-=-
+        portaria
+            "_id": "5ec527ca9186cd1cbca61489",
+
+
+
+    }
+
+            2
+    {
+
+        "nome": "papirosnelson alexandrino",
+        "RG": 1458798523,
+        "tipo_ingresso": "S",
+        "vaga": "true",
+        "n_vaga":2,
+        "portaria_ingresso":"5ec525f79186cd1cbca61486"
+
+        -=-=-
+        portaria
+            "_id": "5ec527ca9186cd1cbca61489",
+
+
+
+    }
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+                BAR 
+
+{
+    "produto_nome": "desonfetante interno",
+    "quantidade_produto": 1,
+    "entrada_fichas": 500,
+    "troco" : 70,
+    "ingresso_vinc": "5ec527ca9186cd1cbca61489"
+}
+ > clebsnaldo
+
+{
+    "produto_nome": "botumo da ribancera",
+    "quantidade_produto": 1,
+    "entrada_fichas": 300,
+    "troco" : 30,
+    "ingresso_vinc": "5ec527ca9186cd1cbca61489"
+}
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+
+            caixa
+
+{
+    "pedido_fichas": 30,
+    "vlr_recebido": 50,
+    "forma_pag":"DI",
+    "troco":20,
+    "ingresso_vinc":"5ec527ca9186cd1cbca61489"
+}

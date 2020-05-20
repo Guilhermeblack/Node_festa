@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const esquema = mongoose.Schema({
-   qnt_fichas: {
+   pedido_fichas: {
       type: Number,
       required: true,
       min:1 // Atributo obrigatório
@@ -16,15 +16,20 @@ const esquema = mongoose.Schema({
       // CH = cheque
       // CC = cartão de crédito
       // CD = cartão de débito
+
+      // o ingresso seria a identificação do cliente que fez a retirada
+      // do produto no caso do bar
+      //da ficha no caso do caixa
+      
       enum: ['DI', 'CH', 'CC', 'CD'],
       required: true
    },
    troco: {
       type: Number,
    },
-   cliente: {
+   ingresso_vinc: {
       type: mongoose.ObjectId,
-      ref: 'Ingressos', // Nome do model referenciado
+      ref: 'Ingresso', // Nome do model referenciado
       required: true,
    }
 
